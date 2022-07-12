@@ -1,4 +1,4 @@
-@media (max-width: 1340px) {
+@media (max-width: 1440px) {
 
 }
 
@@ -16,7 +16,29 @@
     .consultation {
         padding: 100px 0 92px 10px;
     }
+    .carousel {
+        &__inner {
+            width: 709px;
+            img {
+              width: 100%;  
+            }
+            
+        }
+    }
+
+    .catalog {
+        &__content {
+            &_active {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+        }
+        }
+
+    }
+
 }
+  
 
 @media (max-width: 425px) {
 .header {
@@ -76,5 +98,24 @@
     .feed-form {
         margin: 36px auto;
     }
+}
+
+.carousel {
+    &__inner {
+        width: 421px;
+        img {
+          width: 100%;  
+        }
+        
+    }
+}
+
+.catalog {
+    padding-left: 10px;
+    &__tab {
+        font-size: 14px;
+
+    }
+
 }
 }

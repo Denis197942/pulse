@@ -7,15 +7,17 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><img src="icons/right.svg"></button>',
         responsive: [
             {
-              breakpoint: 992,
+              breakpoint: 769,
               settings: {
-                dots: true,
+                dots: false,
                 prevArrow: false,
                 nextArrow: false
               }
             }
         ]
       });
+
+      
       $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
         $(this)
           .addClass('catalog__tab_active').siblings().removeClass('catalog__tab_active')
