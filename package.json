@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "animate.css": "^4.1.1",
     "pulse": "^0.3.0",
     "source-map-url": "^0.4.1"
   },
