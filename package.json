@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "animate.css": "^4.1.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
     "pulse": "^0.3.0",
     "source-map-url": "^0.4.1"
   },
